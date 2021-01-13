@@ -4,6 +4,8 @@ const morgan = require('morgan')
 const app = express()
 const cors = require('cors')
 
+app.use(express.static('build'))
+
 app.use(cors())
 //WITHOUT THIS, request.body WON'T WORK
 app.use(express.json())
