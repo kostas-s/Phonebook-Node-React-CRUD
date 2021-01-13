@@ -1,7 +1,6 @@
 # Phonebook Web App
 A RESTful Web application where you can store names and numbers.
 
-----------------------------------------------------
 ## This project makes use of the following:
 * ExpressJS, ReactJS.
 
